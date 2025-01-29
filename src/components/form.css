@@ -1,0 +1,60 @@
+
+form {
+    display: flex;
+    flex-direction: column;  /* Размещаем элементы вертикально */
+    align-items: center;     /* Выравниваем по центру по горизонтали */
+    justify-content: center; /* Выравниваем по центру по вертикали (если нужно) */
+    height: 100%;
+    p {
+      color: rgb(243, 243, 233);
+      padding-bottom: 15px;
+    }
+  }
+  
+  input[type="text"] {
+
+  border: 1px solid rgba(255, 255, 255, 0.666);
+  border-radius: 16px;
+  padding: 13px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.487);
+  color: #fff;
+  outline: none;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.843);
+
+  &:focus {
+    border-color: #8cadff;
+  }
+
+  &::placeholder {
+    color: #cccccc99;
+    font-weight: normal;
+  }
+
+  }
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.879) inset !important;
+    box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.587) inset !important;
+    background-color: rgba(0, 0, 0, 0.851) inset !important;
+}
+  button {
+    padding: 17px 15px;
+    font-size: 18px;
+    color: rgb(243, 243, 243);
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.2s;
+    cursor: pointer;
+    &:hover {
+      color: #b4d3ff;
+      transform: scale(1.05);
+    }
+
+  }
+
+
+  

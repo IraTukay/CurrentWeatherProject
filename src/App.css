@@ -1,0 +1,38 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", serif;
+  font-weight: 500;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.left {
+
+  background-image:linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  flex: 1;
+  padding: 0px;
+  border-right: 1px solid #ccc;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.right {
+  background-image:linear-gradient( rgb(42, 79, 146), rgb(6, 29, 74));
+  flex: 2;
+  padding: 0px;
+  height: 100%;
+  overflow-y: auto;
+}
